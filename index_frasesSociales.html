@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Frases Sociales</title>
+  <link rel="stylesheet" href="styles_frasesSociales.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Generador de Frases Sociales</h1>
+    <p>Selecciona una situación social para obtener un guion o frase sugerida:</p>
+
+    <div class="button-container">
+      <button class="social-btn" data-situation="saludo">Saludo</button>
+      <button class="social-btn" data-situation="despedida">Despedida</button>
+      <button class="social-btn" data-situation="pregunta">Hacer una pregunta</button>
+      <button class="social-btn" data-situation="agradecimiento">Agradecimiento</button>
+      <button class="social-btn" data-situation="presentacion">Presentación</button>
+      <button class="social-btn" data-situation="felicitacion">Felicitación</button>
+      <button class="social-btn" data-situation="disculpa">Disculpa</button>
+      <button class="social-btn" data-situation="conversacion">Conversación Casual</button>
+    </div>
+
+    <div class="output">
+      <p id="social-phrase">Haz clic en un botón para obtener una frase.</p>
+    </div>
+  </div>
+
+  <script src="script_frasesSociales.js"></script>
+</body>
+</html>
