@@ -48,8 +48,8 @@ p {
   margin-top: 20px;
 }
 
+/* Botones con los colores del logo */
 .social-btn {
-  background-color: #4CAF50;
   color: white;
   border: none;
   padding: 15px;
@@ -59,8 +59,44 @@ p {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.social-btn:nth-child(1) {
+  background-color: #ff9900; /* Naranja oscuro */
+}
+
+.social-btn:nth-child(2) {
+  background-color: #cc3300; /* Rojo */
+}
+
+.social-btn:nth-child(3) {
+  background-color: #ffcc00; /* Amarillo */
+}
+
+.social-btn:nth-child(4) {
+  background-color: #0066cc; /* Azul oscuro */
+}
+
+.social-btn:nth-child(5) {
+  background-color: #663300; /* Marrón */
+}
+
+.social-btn:nth-child(6) {
+  background-color: #ff6600; /* Naranja claro */
+}
+
+.social-btn:nth-child(7) {
+  background-color: #3399ff; /* Azul claro */
+}
+
+/* Colores para los botones que estaban en blanco */
+.social-btn:nth-child(8) {
+  background-color: #ff6600; /* Color naranja adicional para 'Hacer una pregunta' */
+}
+
+.social-btn:nth-child(9) {
+  background-color: #3399ff; /* Azul claro para 'Conversación Casual' */
+}
+
 .social-btn:hover {
-  background-color: #45a049;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
